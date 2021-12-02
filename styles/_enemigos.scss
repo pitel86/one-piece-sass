@@ -1,0 +1,22 @@
+#enemigos {
+  h2 {
+    color: #d53633;
+  }
+  .enemies-trips {
+    @include flexElement(row, space-evenly, flex-start);
+
+    .enemies {
+      margin: 20px 10px;
+      img {
+        @include imgWidth(350px);
+      }
+      .enemies-name {
+        @include pirateBox($blackBg, 18px, $whiteFont, 5px);
+      }
+
+      .enemies-captain {
+        @include pirateBox($yellowBg, 16px, $blackFont, 3px);
+      }
+    }
+  }
+}

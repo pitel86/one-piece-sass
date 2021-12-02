@@ -1,0 +1,47 @@
+@import "./variables";
+@import "./mixins";
+
+@import "./navbar";
+@import "./home";
+@import "./mugiwaras";
+@import "./aliados";
+@import "./enemigos";
+@import "./footer";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: $primaryFont;
+  text-align: center;
+}
+
+main {
+  padding-top: 130px;
+  background-color: $whiteBg;
+}
+
+section {
+  padding: 30px 0;
+}
+
+h1 {
+  color: $blueFont;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: $blueFont;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+}

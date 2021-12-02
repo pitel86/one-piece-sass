@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@300;500&display=swap");
+.navbar {
+  background-color: #d53633;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar .navbar-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+}
+
+.navbar .navbar-menu .navbar-item {
+  font-size: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.navbar .navbar-menu .navbar-item a {
+  color: #f4efe6;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.navbar .navbar-menu .navbar-item a:hover {
+  color: #326aab;
+  cursor: pointer;
+}
+
+.navbar .navbar-menu .navbar-item img {
+  height: 70px;
+}
+
+#home img {
+  max-width: 800px;
+  margin: 20px;
+  border-radius: 100px;
+}
+
+.mugiwaras-tripulation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.mugiwaras-tripulation .pirata {
+  margin: 20px auto;
+  max-width: 330px;
+}
+
+.mugiwaras-tripulation .pirata img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 90%;
+  height: 90%;
+}
+
+.mugiwaras-tripulation .pirata .pirata-name {
+  background-color: #d53633;
+  color: #f4efe6;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.mugiwaras-tripulation .pirata .pirata-rol {
+  background-color: #e3b76e;
+  color: #000000;
+  font-size: 16px;
+  padding: 3px;
+}
+
+.mugiwaras-tripulation .pirata .pirata-dream {
+  background-color: #f4efe6;
+  color: #000000;
+  font-size: 14px;
+  padding: 3px;
+}
+
+.allies-trips {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.allies-trips .allies {
+  margin: 20px 10px;
+}
+
+.allies-trips .allies img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 350px;
+}
+
+.allies-trips .allies .allies-name {
+  background-color: #326aab;
+  color: #f4efe6;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.allies-trips .allies .allies-captain {
+  background-color: #e3b76e;
+  color: #000000;
+  font-size: 16px;
+  padding: 3px;
+}
+
+#enemigos h2 {
+  color: #d53633;
+}
+
+#enemigos .enemies-trips {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#enemigos .enemies-trips .enemies {
+  margin: 20px 10px;
+}
+
+#enemigos .enemies-trips .enemies img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 350px;
+}
+
+#enemigos .enemies-trips .enemies .enemies-name {
+  background-color: #000;
+  color: #f4efe6;
+  font-size: 18px;
+  padding: 5px;
+}
+
+#enemigos .enemies-trips .enemies .enemies-captain {
+  background-color: #e3b76e;
+  color: #000000;
+  font-size: 16px;
+  padding: 3px;
+}
+
+footer {
+  background-color: #d53633;
+  color: #f4efe6;
+  padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+
+main {
+  padding-top: 130px;
+  background-color: #f4efe6;
+}
+
+section {
+  padding: 30px 0;
+}
+
+h1 {
+  color: #326aab;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #326aab;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=styles.css.map */

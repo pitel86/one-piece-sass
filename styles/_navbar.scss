@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #d53633;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+
+  .navbar-menu {
+    @include flexElement(row, space-around, center);
+    list-style-type: none;
+    .navbar-item {
+      font-size: 20px;
+      padding: 10px;
+      text-transform: uppercase;
+      a {
+        color: $whiteFont;
+        margin-right: 1rem;
+        font-size: 1.3rem;
+        text-decoration: none;
+
+        &:hover {
+          color: $blueFont;
+          cursor: pointer;
+        }
+      }
+
+      img {
+        height: 70px;
+      }
+    }
+  }
+}

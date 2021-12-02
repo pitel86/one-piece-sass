@@ -1,0 +1,25 @@
+.mugiwaras-tripulation {
+  @include flexElement(row, space-between, flex-start);
+
+  .pirata {
+    margin: 20px auto;
+    max-width: 330px;
+
+    img {
+      @include imgWidth(90%);
+      height: 90%;
+    }
+
+    .pirata-name {
+      @include pirateBox($redBg, 20px, $whiteFont, 5px);
+    }
+
+    .pirata-rol {
+      @include pirateBox($yellowBg, 16px, $blackFont, 3px);
+    }
+
+    .pirata-dream {
+      @include pirateBox($whiteBg, 14px, $blackFont, 3px);
+    }
+  }
+}

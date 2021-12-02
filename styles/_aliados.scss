@@ -1,0 +1,19 @@
+.allies-trips {
+  @include flexElement(row, space-between, flex-start);
+
+  .allies {
+    margin: 20px 10px;
+
+    img {
+      @include imgWidth(350px);
+    }
+
+    .allies-name {
+      @include pirateBox($blueBg, 18px, $whiteFont, 5px);
+    }
+
+    .allies-captain {
+      @include pirateBox($yellowBg, 16px, $blackFont, 3px);
+    }
+  }
+}

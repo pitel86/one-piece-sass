@@ -1,0 +1,19 @@
+@mixin flexElement($direction, $justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: wrap;
+  flex-direction: $direction;
+}
+
+@mixin imgWidth($witdh) {
+    object-fit: contain;
+    width: $witdh;  
+}
+
+@mixin pirateBox($bgColor, $fontSize, $color, $padding) {
+    background-color: $bgColor;
+    color: $color;
+    font-size: $fontSize;
+    padding: $padding;
+}
